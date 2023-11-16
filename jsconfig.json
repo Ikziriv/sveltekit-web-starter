@@ -1,0 +1,99 @@
+{
+	"extends": "./.svelte-kit/tsconfig.json",
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strict": true,
+		"moduleResolution": "bundler",
+		"baseUrl": ".",
+		"paths": {
+			"$lib": [
+				"src/lib"
+			],
+			"$lib/*": [
+				"src/lib/*"
+			],
+			"$components": [
+				"src/lib/components"
+			],
+			"$components/*": [
+				"src/lib/components/*"
+			],
+			"$general": [
+				"src/lib/components/general"
+			],
+			"$general/*": [
+				"src/lib/components/general/*"
+			],
+			"$screen": [
+				"src/lib/components/screen"
+			],
+			"$screen/*": [
+				"src/lib/components/screen/*"
+			],
+			"$section": [
+				"src/lib/components/section"
+			],
+			"$section/*": [
+				"src/lib/components/section/*"
+			],
+			"$shared": [
+				"src/lib/components/shared"
+			],
+			"$shared/*": [
+				"src/lib/components/shared/*"
+			],
+			"$config": [
+				"src/lib/config"
+			],
+			"$config/*": [
+				"src/lib/config/*"
+			],
+			"$content": [
+				"src/lib/content"
+			],
+			"$content/*": [
+				"src/lib/content/*"
+			],
+			"$helpers": [
+				"src/lib/helpers"
+			],
+			"$helpers/*": [
+				"src/lib/helpers/*"
+			],
+			"$layouts": [
+				"src/lib/layouts"
+			],
+			"$layouts/*": [
+				"src/lib/layouts/*"
+			],
+			"$stores": [
+				"src/lib/stores"
+			],
+			"$stores/*": [
+				"src/lib/stores/*"
+			],
+			"$utils": [
+				"src/lib/utils"
+			],
+			"$utils/*": [
+				"src/lib/utils/*"
+			],
+			"$styles": [
+				"src/styles"
+			],
+			"$styles/*": [
+				"src/styles/*"
+			]
+		}
+	}
+	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias and https://kit.svelte.dev/docs/configuration#files
+	//
+	// If you want to overwrite includes/excludes, make sure to copy over the relevant includes/excludes
+	// from the referenced tsconfig.json - TypeScript does not merge them in
+}
